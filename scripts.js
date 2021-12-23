@@ -302,30 +302,35 @@ document.getElementById('pchela2-50').addEventListener('click', myFunction5);
 function myFunction1(){
       document.getElementById('poyavlenie').style.display = 'none';
       document.getElementById('p_1').style.display = 'none';
+      document.getElementById('poyavlenie-20').style.display = 'none';
       document.getElementById('p_2').style.display = 'block';
       document.documentElement.scrollTop = 0;
 };
 function myFunction2(){
   document.getElementById('poyavlenie-20').style.display = 'none';
   document.getElementById('p_2').style.display = 'none';
+  document.getElementById('poyavlenie-30').style.display = 'none';
   document.getElementById('p_3').style.display = 'block';
   document.documentElement.scrollTop = 0;
 };
 function myFunction3(){
   document.getElementById('poyavlenie-30').style.display = 'none';
   document.getElementById('p_3').style.display = 'none';
+  document.getElementById('poyavlenie-40').style.display = 'none';
   document.getElementById('p_4').style.display = 'block';
   document.documentElement.scrollTop = 0;
 };
 function myFunction4(){
   document.getElementById('poyavlenie-40').style.display = 'none';
   document.getElementById('p_4').style.display = 'none';
+  document.getElementById('poyavlenie-50').style.display = 'none';
   document.getElementById('p_5').style.display = 'block';
   document.documentElement.scrollTop = 0;
 };
 function myFunction5(){
   document.getElementById('poyavlenie-50').style.display = 'none';
   document.getElementById('p_5').style.display = 'none';
+  document.getElementById('poyavlenie').style.display = 'none';
   document.getElementById('p_1').style.display = 'block';
   document.documentElement.scrollTop = 0;
 };
