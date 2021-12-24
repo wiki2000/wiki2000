@@ -469,6 +469,13 @@ h1, h2{
     .sleva, .sprava{
         display: none;
     }
+    .menu2{
+        width: 60px;
+    }
+    .menu3{
+        display: block;
+        margin: 4%;
+    }
     h1{
         font-size: 1.3em;
     }
